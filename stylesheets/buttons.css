@@ -1,4 +1,4 @@
-.button {
+.button, button {
   display: inline-block;
   *display: inline;
   padding: 4px 14px;
