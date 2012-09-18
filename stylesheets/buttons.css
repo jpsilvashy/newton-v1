@@ -12,9 +12,10 @@
   text-shadow: 0 1px 0px rgba(255, 255, 255, 0.65);
   vertical-align: middle;
   cursor: pointer;
-  background-color: #ebebeb;
 
+  background-color: #ebebeb;
   *background-color: #ebebeb;
+
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9), to(#ebebeb));
   background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
   background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
