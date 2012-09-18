@@ -42,5 +42,12 @@ img {
   *zoom: 1;
 }
 
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
 /* Style adjustments for high resolution devices */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {}

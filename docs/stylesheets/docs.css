@@ -1,0 +1,23 @@
+html {
+  background: #f0f0f0;
+}
+
+body {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  border: 1px solid #ddd;
+  border-bottom-color: #b8b8b8;
+
+  margin: 20px;
+}
+
+section {
+  padding: 20px;
+  border-top: 1px dashed #ddd;
+}
+
+section:first-child {
+  border-top:none;
+}
