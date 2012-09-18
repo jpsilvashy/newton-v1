@@ -1,4 +1,4 @@
-newton
-======
+# Newton
 
-Basic HTML5/CSS3 framework.
+Newton is an HTML5 framework for building clean simple HTML, uncluttered and simple, unline Bootstrap or Foundation.
+

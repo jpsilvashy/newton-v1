@@ -1,0 +1,10 @@
+# humanstxt.org/
+
+Developer: Joseph Silvashy
+Site: http://jpsilvashy.com
+Location: San Francisco, USA
+
+Last update: YYYY/MM/DD
+Standards:
+Components:
+Software:
