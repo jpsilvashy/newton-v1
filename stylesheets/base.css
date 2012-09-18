@@ -37,7 +37,6 @@ img {
   clear: both;
 }
 
-/* Hack for IE 6/7 */
 .clearfix {
   *zoom: 1;
 }
@@ -48,6 +47,3 @@ body {
   color: #333;
   background-color: #fff;
 }
-
-/* Style adjustments for high resolution devices */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {}

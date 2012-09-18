@@ -21,3 +21,8 @@ section {
 section:first-child {
   border-top:none;
 }
+
+/* Style adjustments for high resolution devices */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+
+}
