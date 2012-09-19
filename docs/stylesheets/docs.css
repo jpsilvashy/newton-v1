@@ -13,6 +13,7 @@ body {
   margin: 20px;
 }
 
+/* Jumbotron */
 #jumbotron {
   float: left;
   width: 100%;
@@ -22,7 +23,7 @@ body {
   margin: 0;
 }
 
-#jumbotron h2 {
+#jumbotron h3 {
   font-weight: 300;
   margin: 0 0 14px 0;
 }

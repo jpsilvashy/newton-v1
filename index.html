@@ -32,7 +32,7 @@
       <div id="newton"></div>
 
       <h1>Newton</h1>
-      <h2>A simple, hack-free, and opinionated HTML5 framework.</h2>
+      <h3>A simple, hack-free, and opinionated HTML5 framework.</h3>
 
       <a class='button' href='https://github.com/jpsilvashy/newton/zipball/master'><strong>Download</strong></a>
       <a class='button' href='https://github.com/jpsilvashy/newton'>View on <strong>Github</strong></a>
@@ -50,9 +50,6 @@
     <h1>Header One</h1>
     <h2>Header Two</h2>
     <h3>Header Three</h3>
-    <h4>Header Four</h4>
-    <h5>Header Five</h5>
-    <h5>Header Six</h5>
   </section>
 
   <!-- Tables -->
@@ -83,21 +80,61 @@
       <fieldset>
         <legend>Legend Name</legend>
 
-        <label for="name">Name</label>
-        <input type="text" placeholder="Type something...">
-        <span class="help-block">Example block-level help text here.</span>
+        <div class='input large'>
+          <label for="name">Name</label>
+          <input type="text" placeholder="Type something...">
+          <span class="help-block">Example block-level help text here.</span>
+        </div>
 
-        <label for="email">Email</label>
-        <input type="text" name="email" />
+        <div class='input medium'>
+          <label for="email">Email</label>
+          <input type="text" name="email" />
+        </div>
 
-        <label for="phone">Phone</label>
-        <input type="text" name="phone" />
+        <div class='input small'>
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" />
+        </div>
 
-        <label class="checkbox">
-          <input type="checkbox"> Check me out
-        </label>
+        <div class='input'>
+          <label class="checkbox">
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
 
-        <button type="submit" class="btn">Submit</button>
+        <div class='actions'>
+          <button type="submit" class="btn">Submit</button>
+          <a href='#' class="alternate-action">Nevermind</a>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+
+  <!-- Another Form -->
+  <section>
+    <form>
+      <fieldset>
+        <legend>Sign Up</legend>
+
+        <div class='input medium'>
+          <label for="email">Email</label>
+          <input type="text" name="email" />
+        </div>
+
+        <div class='input medium'>
+          <label for="password">Password</label>
+          <input type="password" name="password" />
+        </div>
+
+        <div class='input medium'>
+          <label for="password-confirmation">Password Confirmation</label>
+          <input type="password" name="password-confirmation" />
+        </div>
+
+        <div class='actions'>
+          <button type="submit" class="btn">Beam me up!</button>
+          <a href='#' class="alternate-action">I don&rsquo;t want to sign up anymore</a>
+        </div>
       </fieldset>
     </form>
   </section>
