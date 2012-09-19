@@ -69,3 +69,14 @@ h2 {
 h3 {
   font-size: 1.5em;
 }
+
+/* links */
+a {
+  color:#0080c9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
