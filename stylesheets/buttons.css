@@ -1,7 +1,7 @@
 .button, button {
   display: inline-block;
   *display: inline;
-  padding: 4px 16px;
+  padding: 8px 18px;
   margin-bottom: 0;
   *margin-left: .3em;
   font-size: 14px;
